@@ -1,0 +1,18 @@
+{
+  "name": "typical",
+  "schema": "LifecycleEventV1 (category 0, version 1)",
+  "bytes": "0x0100a41912a20100005d521b62b039d6c3d78d8ca6c71a351b88ea00edc0daaa9e801894d7c956928f",
+  "length_bytes": 41,
+  "parsed": {
+    "event_type": 1,
+    "occurred_at_unix_ms": 1795600000000,
+    "gs1_event_hash": "0x5d521b62b039d6c3d78d8ca6c71a351b88ea00edc0daaa9e801894d7c956928f"
+  },
+  "blake2_256_of_bytes": "0xb82e92c80eb6c4553fca0fdc4df95f23f55540ce4a8a45298057d65d67a6dd73",
+  "provenance": {
+    "generated_by": "cargo run --example generate_vectors -p pallet-pilier-dpp",
+    "source_commit": "9a7c30f",
+    "runtime_spec_version": 105,
+    "notes": "The real second lifecycle event (index 1, event_type 1 = shipped) of the same live testnet worked example."
+  }
+}

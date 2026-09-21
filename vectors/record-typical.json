@@ -1,0 +1,19 @@
+{
+  "name": "typical",
+  "schema": "PassportRecordV1 (category 0, version 1)",
+  "bytes": "0xf40100001018636f74746f6e701724706f6c796573746572c40920656c617374616e65f4011c766973636f7365e80300081e28ba7ac941ad264440690254d7524f0c0259cfd4c11b1711c3d38b07249d3a6fffd7cd93a5a34a08125764ac5bcf64e3c4ab9c1d3e7ede43d53e5ab65d60a8",
+  "length_bytes": 113,
+  "parsed": {
+    "count": 500,
+    "composition": [{ "fibre": "cotton", "percentage_bps": 6000 }, { "fibre": "polyester", "percentage_bps": 2500 }, { "fibre": "elastane", "percentage_bps": 500 }, { "fibre": "viscose", "percentage_bps": 1000 }],
+    "composition_source": 0,
+    "certificate_fingerprints": ["0x1e28ba7ac941ad264440690254d7524f0c0259cfd4c11b1711c3d38b07249d3a", "0x6fffd7cd93a5a34a08125764ac5bcf64e3c4ab9c1d3e7ede43d53e5ab65d60a8"]
+  },
+  "blake2_256_of_bytes": "0x0ddce2498c34ff2750b0e74a26028ebd956d2d19de0e59324552966a120da02d",
+  "provenance": {
+    "generated_by": "cargo run --example generate_vectors -p pallet-pilier-dpp",
+    "source_commit": "9a7c30f",
+    "runtime_spec_version": 105,
+    "notes": "The real, permanently published worked example on the passport pallet's own pilier.dev documentation page and on the live testnet (wss://rpc.pilier.dev), at key (DOCS-EXAMPLE-0001, 00000000000017). Byte-for-byte identical to the on-chain record; reconstruction checked against it before this file was written."
+  }
+}
