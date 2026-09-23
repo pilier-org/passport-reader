@@ -7,8 +7,9 @@
   "blake2_256_of_bytes": "0xda2c8c0e93f35bb7c94c9fe0fe1f97d48ff40a76ac8891de09a9b88dbc986c92",
   "provenance": {
     "generated_by": "cargo run --example generate_vectors -p pallet-pilier-dpp",
-    "source_commit": "9a7c30f",
+    "source_commit": "0ef767f",
     "runtime_spec_version": 105,
+    "pallet_version": "0.1.0",
     "notes": "Synthetic raw fill at exactly MaxEventLen (128 bytes). Deliberately NOT a decodable LifecycleEventV1: that schema is fixed at 41 bytes for any field values, so a ceiling-sized instance of it does not exist. This vector demonstrates only the pallet's own raw length ceiling on an event body, the same way this pallet's own tests.rs exercises it."
   }
 }

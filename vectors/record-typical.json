@@ -12,8 +12,9 @@
   "blake2_256_of_bytes": "0x0ddce2498c34ff2750b0e74a26028ebd956d2d19de0e59324552966a120da02d",
   "provenance": {
     "generated_by": "cargo run --example generate_vectors -p pallet-pilier-dpp",
-    "source_commit": "9a7c30f",
+    "source_commit": "0ef767f",
     "runtime_spec_version": 105,
+    "pallet_version": "0.1.0",
     "notes": "The real, permanently published worked example on the passport pallet's own pilier.dev documentation page and on the live testnet (wss://rpc.pilier.dev), at key (DOCS-EXAMPLE-0001, 00000000000017). Byte-for-byte identical to the on-chain record; reconstruction checked against it before this file was written."
   }
 }

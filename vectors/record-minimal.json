@@ -12,8 +12,9 @@
   "blake2_256_of_bytes": "0xdc080ad182cb9ff052a1ca8ecbc51164264efc7dd6debaaa45764950f843acb8",
   "provenance": {
     "generated_by": "cargo run --example generate_vectors -p pallet-pilier-dpp",
-    "source_commit": "9a7c30f",
+    "source_commit": "0ef767f",
     "runtime_spec_version": 105,
+    "pallet_version": "0.1.0",
     "notes": "Synthetic: every variable-length field empty. The smallest legal encoding of this schema. Never published on chain."
   }
 }

@@ -11,8 +11,9 @@
   "blake2_256_of_bytes": "0x7ff65bd8e6a4c9bbc6955a0fbbcf6fa1e61001fcf7e40d6d01feb8cc5982e605",
   "provenance": {
     "generated_by": "cargo run --example generate_vectors -p pallet-pilier-dpp",
-    "source_commit": "9a7c30f",
+    "source_commit": "0ef767f",
     "runtime_spec_version": 105,
+    "pallet_version": "0.1.0",
     "notes": "The real first lifecycle event (index 0, event_type 0 = created) of the passport pallet's own live testnet worked example, at key (DOCS-EXAMPLE-0001, 00000000000017). Named 'minimal' because every LifecycleEventV1 encodes to the same fixed 41 bytes regardless of field values, so this and 'typical' differ only in content, not in shape or length."
   }
 }

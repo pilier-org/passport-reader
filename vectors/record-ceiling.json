@@ -12,8 +12,9 @@
   "blake2_256_of_bytes": "0x26a90146d8a01aeece8f99b54f2d98dee3efaff6cec985e9175a6dc79d329344",
   "provenance": {
     "generated_by": "cargo run --example generate_vectors -p pallet-pilier-dpp",
-    "source_commit": "9a7c30f",
+    "source_commit": "0ef767f",
     "runtime_spec_version": 105,
+    "pallet_version": "0.1.0",
     "notes": "Synthetic: padded with filler certificate fingerprints (not real certificates) solely to reach MaxRecordBodyLen (4096 bytes) exactly. Never published on chain."
   }
 }

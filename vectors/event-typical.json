@@ -11,8 +11,9 @@
   "blake2_256_of_bytes": "0xb82e92c80eb6c4553fca0fdc4df95f23f55540ce4a8a45298057d65d67a6dd73",
   "provenance": {
     "generated_by": "cargo run --example generate_vectors -p pallet-pilier-dpp",
-    "source_commit": "9a7c30f",
+    "source_commit": "0ef767f",
     "runtime_spec_version": 105,
+    "pallet_version": "0.1.0",
     "notes": "The real second lifecycle event (index 1, event_type 1 = shipped) of the same live testnet worked example."
   }
 }
